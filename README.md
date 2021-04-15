@@ -20,7 +20,7 @@ I began by organizing the data that I needed to perform my multiple linear regre
 
 After organizing my data properly, I was able to find the measures of central tendency as well as other statistics using the describe function which helped to organize my data and get a proper understanding of it.
 
-#Data Visualizations and Results
+# Data Visualizations and Results
 I was able to make data visualizations using the plotly function and similar to my midterm project I used Covid Cases, Incident Rate, and Fatality Rate as the Y, with two graphs for each since each had an x variable of Population and Household Income. 
 
 # Covid Cases as Y
@@ -42,7 +42,7 @@ When we control for the Household Income, a one unit difference in population is
 For the third analysis with the Fatality Rate as the Y, the population had a slight positive correlation with a R^2 value 0f 0.1208 and a significant P value of 0.0076. The household income was insignicant as the P-value of >0.05 but the R^2 was 0.0491 with low correlation regardless.
 **Fatality Rate = 3.13714 + 1.2E-07(population)-4E-05(Household Income)**
 When we control for the Household Income, a one unit difference in population is associated with a 1.2E-07 difference in fatality rate percentage.
-#Regression Conclusions 
+# Regression Conclusions 
 Data points such as New York, Philadelphia, Chigcago, and Los Angeles stood out since their fatality, incident, and case numbers were much higher than average. This could be the explanation for why some of the best-fit lines were pulled slightly up. Overall, it seemed that Population had a much stronger effect on the dependent variable than Household income did. 
 
 The multiple linear regression providing an effective way to understand the relationship between variables in the city by city analysis. Overall it seems as though Population has a much stronger effect than household as seen with the covid cases analysis. Although for the other studies, the population was not significant, the Covid Case study was the only one that revealed a strong positive correlation for population with a high R^2 value. Household Income was only significant for the Incident rate analysis which revealed there to be a slight negative correlation between the Household Income and Incident Rate. There was a stronger negative correlation for the Incident Rate versus the Fatality Rate. As an overall conclusion, there cannot be any significant claims to be made about the effect of Household Income on Covid Cases. To improve the containment of the disease, governments could push for re-instating masking laws and to spread more awareness regarding the virus. As vaccinations are distributed further, the mortality rates will decreases, and hopefully with more awarenesss, the cases can see a decrease over time. It is not very feasible to spend more money on policies for the virus since the country is already very much in debt, but non-profit organizations and informational programs can help to convey the message and limit cases as seen in the past. [Article explaining](https://www.brookings.edu/blog/up-front/2020/03/25/where-is-the-u-s-government-getting-all-the-money-its-spending-in-the-coronavirus-crisis/)
