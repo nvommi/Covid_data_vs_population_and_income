@@ -23,19 +23,20 @@ After organizing my data properly, I was able to find the measures of central te
 #Data Visualizations and Results
 I was able to make data visualizations using the plotly function and similar to my midterm project I used Covid Cases, Incident Rate, and Fatality Rate as the Y, with two graphs for each since each had an x variable of Population and Household Income. 
 
-#Covid Cases as Y
+# Covid Cases as Y
 ![image](https://user-images.githubusercontent.com/78445017/114911429-fd278380-9dec-11eb-8941-1964550a0c5e.png)
 ![image](https://user-images.githubusercontent.com/78445017/114911460-07e21880-9ded-11eb-9811-4a39ebd5e8bd.png)
 For the first analysis with Covid cases as the Y, there was a strong positive correlation between population and covid cases with an R^2 value of 0.9345. The value was significant as well since the P value was around 2.1E-28. On the other hand, Household income seemed to have no correlation with an insignificant p-value along with an R^2 value of 0.0025 showing almost no correlation. 
 **Covid cases = 129763 + 0.10968 (population)-3.66152(Household Income)** 
 When we control for the Household Income, a one-unit difference in Population is associated with a 0.10968 unit difference in Covid Cases.
-#Incident Rate as Y
+# Incident Rate as Y
 ![image](https://user-images.githubusercontent.com/78445017/114911506-16303480-9ded-11eb-8ea9-c6b8f5d1d369.png)
+![image](https://user-images.githubusercontent.com/78445017/114911532-1c261580-9ded-11eb-93d5-0d33031d75c8.png)
 For the second analysis with Incident rate as the Y, there was not much correlation between the Population and incident rate as the R^2 value was 0.0567 and insignicant P value of above 0.05. However, the Household Income versus Incident Rate was significant with a P-value of 0.02, showing a slight negative correlation. The R^2 value was 0.085 showing that the data did not follow the prediicted line that closely. 
 **Incident Rate = 17013.6 + 0.00038(population)-0.20476(Household Income)**
 When we control for the Household Income, a one unit difference in population is associated with a 0.00038 unit difference in Incident Rate. 
-![image](https://user-images.githubusercontent.com/78445017/114911532-1c261580-9ded-11eb-93d5-0d33031d75c8.png)
-#Fatality Rate as Y
+
+# Fatality Rate as Y
 ![image](https://user-images.githubusercontent.com/78445017/114911590-2a743180-9ded-11eb-98ce-267bb4287ce7.png)
 ![image](https://user-images.githubusercontent.com/78445017/114911619-3233d600-9ded-11eb-89bd-baee61a6faec.png)
 For the third analysis with the Fatality Rate as the Y, the population had a slight positive correlation with a R^2 value 0f 0.1208 and a significant P value of 0.0076. The household income was insignicant as the P-value of >0.05 but the R^2 was 0.0491 with low correlation regardless.
@@ -46,7 +47,7 @@ Data points such as New York, Philadelphia, Chigcago, and Los Angeles stood out 
 
 The multiple linear regression providing an effective way to understand the relationship between variables in the city by city analysis. Overall it seems as though Population has a much stronger effect than household as seen with the covid cases analysis. Although for the other studies, the population was not significant, the Covid Case study was the only one that revealed a strong positive correlation for population with a high R^2 value. Household Income was only significant for the Incident rate analysis which revealed there to be a slight negative correlation between the Household Income and Incident Rate. There was a stronger negative correlation for the Incident Rate versus the Fatality Rate. As an overall conclusion, there cannot be any significant claims to be made about the effect of Household Income on Covid Cases. To improve the containment of the disease, governments could push for re-instating masking laws and to spread more awareness regarding the virus. As vaccinations are distributed further, the mortality rates will decreases, and hopefully with more awarenesss, the cases can see a decrease over time. It is not very feasible to spend more money on policies for the virus since the country is already very much in debt, but non-profit organizations and informational programs can help to convey the message and limit cases as seen in the past. [Article explaining](https://www.brookings.edu/blog/up-front/2020/03/25/where-is-the-u-s-government-getting-all-the-money-its-spending-in-the-coronavirus-crisis/)
 
-#Data 
+# Data 
 [JHU CSSE CSV March 24, 2021](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_daily_reports_us/03-24-2021.csv)
 
 [Data Commons](https://datacommons.org/place/geoId/06037)
