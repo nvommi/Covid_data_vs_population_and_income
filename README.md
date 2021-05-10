@@ -1,5 +1,5 @@
 # Covid_data_vs_population_and_income
-#Background
+# Background
 The covid pandemic has been affecting the world socially and economically. Cases continue to rise even amidst the vaccine with over 124 million infections and 2.7 million deaths, the virus has had a catastrophic impact. The United States has 2.6 million cases by itself with over 100,000 cases. Mutations are constantly evovling, for example with the New York pathogen, making 22 distinguishing mutations in total.
 
 [Covid-Statistics](https://www.medicalnewstoday.com/articles/live-updates-coronavirus-covid-19#1)
